@@ -36,7 +36,10 @@ class CfgEditorSubcategories
 
 class cfgVehicles {
     #include "cfgBackpacks.hpp"
+	
     #include "units\infantry.hpp"
     #include "units\infantry_sf.hpp"
 	#include "units\infantry_sf2.hpp"
+
+	//#include "vehicles\cars.hpp" // Still WIP
 };

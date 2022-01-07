@@ -1,5 +1,5 @@
 // Name of your mod
-name = "SIA Additional Factions";
+name = "SIA Additional Factions v2 (DEV)";
 author = "McKendrick";
 // Picture displayed from the Expansions menu
 picture = "picture.paa";
