@@ -3,6 +3,10 @@
     #define WEAP_XX(a,b) class _xx_##a {weapon = a; count = b;}
     #define ITEM_XX(a,b) class _xx_##a {name = a; count = b;}
 
+    #define MACRO_SCOPE_BACKPACK scope = 1;\
+					scopeCurator = 0;\
+					scopeArsenal = 0;
+
     // Backpack definitons
     class B_Kitbag_rgr;
     class B_AssaultPack_rgr;

@@ -3,6 +3,10 @@
     #define WEAP_XX(a,b) class _xx_##a {weapon = a; count = b;}
     #define ITEM_XX(a,b) class _xx_##a {name = a; count = b;}
 
+    #define MACRO_SCOPE_BACKPACK scope = 1;\
+					scopeCurator = 0;\
+					scopeArsenal = 0;
+
     // Backpack definitons
     class B_Kitbag_rgr;
     class B_AssaultPack_rgr;
@@ -20,7 +24,7 @@
     // Rifleman's backpack config 
     class sia_medu_backpack_r : B_AssaultPack_rgr
     {
-        scope = 1;
+        MACRO_SCOPE_BACKPACK
         displayName = "Backpack Rifleman";
         class TransportMagazines
         {
@@ -30,7 +34,7 @@
 
     class sia_medu_backpack_r_2 : UK3CB_B_Largepack
     {
-        scope = 1;
+        MACRO_SCOPE_BACKPACK
         displayName = "Backpack Rifleman";
         class TransportMagazines
         {
@@ -41,7 +45,7 @@
     // AT Specialist's backpack config
     class sia_medu_backpack_at : rhs_rpg_2
     {
-        scope = 1;
+        MACRO_SCOPE_BACKPACK
         displayName = "Backpack AT";
         class TransportMagazines
         {
@@ -53,7 +57,7 @@
     /// Autorifleman's backpack config
     class sia_medu_backpack_ar : B_Kitbag_rgr
     {
-        scope = 1;
+        MACRO_SCOPE_BACKPACK
         displayName = "Backpack AR";
         class TransportMagazines
         {
@@ -64,7 +68,7 @@
     /// Machinegunner's backpack config
     class sia_medu_backpack_mg : B_FieldPack_khk
     {
-        scope = 1;
+        MACRO_SCOPE_BACKPACK
         displayName = "Backpack MG";
         class TransportMagazines
         {
@@ -75,7 +79,7 @@
     // Grenadier's backpack
     class sia_medu_backpack_gr : B_AssaultPack_rgr
     {
-        scope = 1;
+        MACRO_SCOPE_BACKPACK
         displayName = "Backpack Grenadier";
         class TransportMagazines
         {
@@ -91,7 +95,7 @@
     // Medics' backpack
     class sia_medu_backpack_medic : UK3CB_B_Largepack_Med
     {
-        scope = 1;
+        MACRO_SCOPE_BACKPACK
         displayName = "Backpack Medic";
 	    class TransportItems
 	    {
@@ -104,7 +108,7 @@
 
      class sia_medu_backpack_engineer : B_Kitbag_rgr
     {
-        scope = 1;
+        MACRO_SCOPE_BACKPACK
         displayName = "Backpack Engineer";
 	    class TransportItems
 		{
@@ -117,7 +121,7 @@
     /// Crewmans's backpack config
     class sia_medu_backpack_crew : B_FieldPack_khk
     {
-        scope = 1;
+        MACRO_SCOPE_BACKPACK
         displayName = "Backpack Crew";
         class TransportItems
 		{
@@ -129,7 +133,7 @@
 
     class sia_medu_backpack_sf_at : B_Kitbag_cbr
     {
-        scope = 1;
+        MACRO_SCOPE_BACKPACK
         displayName = "Backpack AT";
         class TransportItems
 		{
@@ -141,7 +145,7 @@
     // SF Autorifleman's backpack
     class sia_medu_backpack_sf_autorifleman : UK3CB_TKA_B_B_RIF
     {
-        scope = 1;
+        MACRO_SCOPE_BACKPACK
         displayName = "Backpack AR";
         class TransportItems
 		{
@@ -152,7 +156,7 @@
     // SF Machinegunner's backpack
     class sia_medu_backpack_sf_machinegunner : UK3CB_TKA_B_B_RIF
     {
-        scope = 1;
+        MACRO_SCOPE_BACKPACK
         displayName = "Backpack MG";
         class TransportItems
 		{
@@ -163,7 +167,7 @@
     // SF Engineer's backpack
     class sia_medu_backpack_sf_engineer : B_Carryall_khk
     {
-        scope = 1;
+        MACRO_SCOPE_BACKPACK
         displayName = "Backpack Engineer";
         class TransportItems
 		{
@@ -177,7 +181,7 @@
 
     class sia_medu_backpack_sf2_at : VSM_OGA_OD_carryall
     {
-        scope = 1;
+        MACRO_SCOPE_BACKPACK
         displayName = "Backpack AT";
         class TransportItems
 		{
@@ -188,7 +192,7 @@
 
     class sia_medu_backpack_sf2_ar : UK3CB_B_Largepack
     {
-        scope = 1;
+        MACRO_SCOPE_BACKPACK
         displayName = "Backpack AR";
         class TransportItems
 		{
@@ -198,7 +202,7 @@
 
     class sia_medu_backpack_sf2_mg : VSM_OGA_OD_Backpack_Kitbag
     {
-        scope = 1;
+        MACRO_SCOPE_BACKPACK
         displayName = "Backpack AR";
         class TransportItems
 		{
@@ -208,7 +212,7 @@
 
     class sia_medu_backpack_sf2_gr : VSM_OGA_OD_Backpack_Compact
     {
-        scope = 1;
+        MACRO_SCOPE_BACKPACK
         displayName = "Backpack Grenadier";
         class TransportMagazines
         {
@@ -223,7 +227,7 @@
 
     class sia_medu_backpack_sf2_engineer : VSM_OGA_OD_carryall
     {
-        scope = 1;
+        MACRO_SCOPE_BACKPACK
         displayName = "Backpack Engineer";
         class TransportItems
 		{
