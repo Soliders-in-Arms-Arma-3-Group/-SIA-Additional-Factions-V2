@@ -1,10 +1,10 @@
 class I_Soldier_base_F;
 class sia_medu_base : I_Soldier_base_F
 {
-    author = "Solders in Arms";
-
     scope = 0;
     scopeCurator = 0;
+
+    AUTHOR_MACRO
 
     side = 2;
     faction = "sia_faction_medu";
