@@ -12,7 +12,7 @@ class sia_merc_base : I_Soldier_base_F
 
 	identityTypes[] =
 	{
-		"LanguageENGFRE_F",
+		"LanguageFRE_F",
 		"Head_Tanoan"
 	};
 	genericNames = "TanoanMen";
