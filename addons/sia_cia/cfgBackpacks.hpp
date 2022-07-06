@@ -21,7 +21,7 @@
     /*
     class sia_cia_backpack_r : B_AssaultPack_rgr
     {
-        scope = 1;
+        MACRO_SCOPE_BACKPACK
         displayName = "Backpack Rifleman";
         class TransportMagazines
         {
@@ -33,7 +33,7 @@
     /// Autorifleman's backpack config
     class sia_cia_backpack_ar : VSM_OGA_OD_Backpack_Kitbag
     {
-        scope = 1;
+        MACRO_SCOPE_BACKPACK
         displayName = "Backpack AR";
         class TransportMagazines
         {
@@ -45,7 +45,7 @@
     /// Machinegunner's backpack config
     class sia_cia_backpack_mg : B_FieldPack_khk
     {
-        scope = 1;
+        MACRO_SCOPE_BACKPACK
         displayName = "Backpack MG";
         class TransportMagazines
         {
@@ -57,7 +57,7 @@
     // Grenadier's backpack
     class sia_cia_backpack_gr : VSM_OGA_OD_Backpack_Compact
     {
-        scope = 1;
+        MACRO_SCOPE_BACKPACK
         displayName = "Backpack Grenadier";
         class TransportMagazines
         {
@@ -73,7 +73,7 @@
     // Medic's backpack
     class sia_cia_backpack_medic : VSM_OGA_OD_Backpack_Kitbag
     {
-        scope = 1;
+        MACRO_SCOPE_BACKPACK
         displayName = "Backpack Medic";
 	    class TransportItems
 	    {
@@ -85,7 +85,7 @@
     // Engineer's backpack
     class sia_cia_backpack_engineer : VSM_OGA_OD_Backpack_Kitbag
     {
-        scope = 1;
+        MACRO_SCOPE_BACKPACK
         displayName = "Backpack Engineer";
 	    class TransportItems
 	    {

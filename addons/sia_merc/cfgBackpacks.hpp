@@ -73,8 +73,8 @@
         
         class TransportMagazines
         {
-            MAG_XX(MRAWS_HEAT55_F,1);
-            MAG_XX(MRAWS_HE_F,1);
+            MAG_XX(RPG32_F,1);
+            MAG_XX(RPG32_HE_F,1);
         };
     };
 

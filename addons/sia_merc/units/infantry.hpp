@@ -197,8 +197,8 @@ class sia_merc_specialist_at : sia_merc_rifleman
     threat[]	= {1,0.7,0.3};
     icon		= "iconManAT";
 
-    weapons[] = {"UK3CB_FAMAS_F1","rhs_weap_tt33","launch_MRAWS_green_rail_F","Throw","Put"};
-    respawnWeapons[] = {"UK3CB_FAMAS_F1","rhs_weap_tt33","launch_MRAWS_green_rail_F","Throw","Put"};
+    weapons[] = {"UK3CB_FAMAS_F1","rhs_weap_tt33","launch_RPG32_green_F","Throw","Put"};
+    respawnWeapons[] = {"UK3CB_FAMAS_F1","rhs_weap_tt33","launch_RPG32_green_F","Throw","Put"};
 
     magazines[] =
     {
@@ -206,7 +206,7 @@ class sia_merc_specialist_at : sia_merc_rifleman
         MAG_2(rhs_mag_762x25_8),
         MAG_2(rhs_mag_f1),
         "SmokeShell",
-        "MRAWS_HEAT55_F"
+        "RPG32_F"
     };
     respawnMagazines[] =
     {
@@ -214,7 +214,7 @@ class sia_merc_specialist_at : sia_merc_rifleman
         MAG_2(rhs_mag_762x25_8),
         MAG_2(rhs_mag_f1),
         "SmokeShell",
-        "MRAWS_HEAT55_F"
+        "RPG32_F"
     };
 
     backpack = "sia_merc_backpack_at";
