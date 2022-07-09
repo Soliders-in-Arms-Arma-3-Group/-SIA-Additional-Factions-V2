@@ -6,6 +6,7 @@ class CfgPatches
 		{
 			"sia_merc_base",
             "sia_merc_rifleman",
+			"sia_merc_rifleman_light",
 			"sia_merc_driver",
 			"sia_merc_grenadier",
 			"sia_merc_rifleman_lat",
